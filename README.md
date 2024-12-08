@@ -6,28 +6,34 @@
 <img src="./readme/title2.svg"/>
 
 > The goal of **LingoQuest** is to keep the process of learning a new language fun, easy, and effective. We believe that the method of learning should feel like an adventure itself: users explore, they interact, they develop their abilities in a natural fashion.
-
+>
 > Our application is based on three important ideas:
-
+>
 > 1. **Interactive Learning**  
-   - People learn more when they are involved. Our app teaches languages through stories, games, and real-life situations, making it both exciting and useful.
-
+>   - People learn more when they are involved. Our app teaches languages through stories, games, and real-life situations, making it both exciting and useful.
+>
 > 2. **Practical Experience**  
-   - It's more than just learning the language; it's putting life into it. We give learners situations and tasks which will help them communicate with confidence in real-life situations.
-
+>   - It's more than just learning the language; it's putting life into it. We give learners situations and tasks which will help them communicate with confidence in real-life situations.
+>
 > 3. **Empowerment for All Users**  
-   - Be it the learners attaining the ability to speak a new language or the tutors earning an amount through their expertise, we build a system where both benefit. We would want to make a nurturing yet rewarding community by giving them fairness and opportunity.
-
+>   - Be it the learners attaining the ability to speak a new language or the tutors earning an amount through their expertise, we build a system where both benefit. We would want to make a nurturing yet rewarding community by giving them fairness and opportunity.
+>
 > In short, LingoQuest is designed to inspire users to enjoy language learning by giving them both the tools and realistic practice they need to succeed.
 
-### User Stories
-- As a learner, I want to select my learning level, so I can begin lessons that match my proficiency.
-- As a learner, I want to participate in interactive stories, so I can practice the language in real-life scenarios.
-- As a learner, I want to access vocabulary translations by tapping objects, so I can learn words in context.
-- As a tutor, I want to correct learner exams and provide detailed feedback, so learners can improve their skills.
-- As a tutor, I want to track the exams I’ve corrected, so I can manage my workload and ensure timely payment.
-- As an admin, I want to ensure the AI-generated prompts are accurate and culturally appropriate, so users have a high-quality experience.
-- As an admin, I want to track tutor performance, so I can ensure the quality of mentorship provided.
+## User Stories
+
+### Student
+* As a student, I want to select my learning level, so I can begin lessons that match my proficiency.
+* As a student, I want to participate in interactive stories, so I can practice the language in real-life scenarios.
+* As a student, I want to access vocabulary translations by tapping objects, so I can learn words in context.
+
+### Tutor
+* As a tutor, I want to correct learner exams and provide detailed feedback, so learners can improve their skills.
+* As a tutor, I want to track the exams I’ve corrected, so I can manage my workload and ensure timely payment.
+
+### Admin
+* As an admin, I want to ensure the AI-generated prompts are accurate and culturally appropriate, so users have a high-quality experience.
+* As an admin, I want to track tutor performance, so I can ensure the quality of mentorship provided.
 
 <br><br>
 <!-- Tech stack -->
