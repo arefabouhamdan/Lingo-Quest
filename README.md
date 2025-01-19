@@ -63,7 +63,12 @@
 
 ### Architecting Data Excellence: Innovative Database Design Strategies:
 
-- Insert ER Diagram here
+| User Model                            | Test Model                         | Results Model                         |
+| ----------------------------------------- | --------------------------------------- | --------------------------------------- |
+| ![Landing](./readme/demo/user%20model.png) | ![fsdaf](./readme/demo/Test.png) | ![fsdaf](./readme/demo/Result.png) |
+| Level Model                            | 
+| ----------------------------------------- |
+| ![Landing](./readme/demo/level%20model.png) |
 
 <br><br>
 
@@ -72,19 +77,21 @@
 
 ### User Screens (Mobile)
 
-| Login screen                              | Register screen                         | Landing screen                          | Loading screen                          |
-| ----------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| ![Landing](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
-| Home screen                               | Menu Screen                             | Order Screen                            | Checkout Screen                         |
-| ![Landing](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
-
-### Admin Screens (Web)
-
-| Login screen                            | Register screen                       | Landing screen                        |
-| --------------------------------------- | ------------------------------------- | ------------------------------------- |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
-| Home screen                             | Menu Screen                           | Order Screen                          |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| Landing screen                            | Login screen                          | Choose Role screen                          |
+| ----------------------------------------- | --------------------------------------- | --------------------------------------- |
+| ![Landing](./readme/demo/Welcome%20Screen.jpg) | ![fsdaf](./readme/demo/Login.jpg) | ![fsdaf](./readme/demo/Choose%20Role.jpg) |
+| Student Register screen                   | Tutor Register Screen                             | Create Avatar Screen                            |
+| ![Landing](./readme/demo/Student%20Sign%20Up.jpg) | ![fsdaf](./readme/demo/Tutor%20SIgn%20Up.jpg) | ![fsdaf](./readme/demo/Create%20Avatar.jpg) |
+| Choose Language screen                               | Student Home Screen                             | Vocab List Screen                            |
+| ![Landing](./readme/demo/Choose%20Language.jpg) | ![fsdaf](./readme/demo/Home%20Screen.jpg) | ![fsdaf](./readme/demo/Vocab%20List.jpg) |
+| Levels screen                               | Level 1 Start                             | Level 1 End                            |
+| ![Landing](./readme/demo/Levels.gif) | ![fsdaf](./readme/demo/AI%20Start%20Chat.gif) | ![fsdaf](./readme/demo/AI%20End%20Chat.gif) |
+| Test screen                               | Top 50 Screen                             | Friend Modal                            |
+| ![Landing](./readme/demo/Test.gif) | ![fsdaf](./readme/demo/LeaderBoard.jpg) | ![fsdaf](./readme/demo/Leaderboard.gif) |
+| Profile screen                               | Add Friends Screen                             | Friends Screen                            |
+| ![Landing](./readme/demo/Profile.jpg) | ![fsdaf](./readme/demo/Search%20Friend.gif) | ![fsdaf](./readme/demo/Friends.jpg) |
+| Tutor Home screen                               | Test Correction                             |
+| ![Landing](./readme/demo/TutorHome.jpg) | ![fsdaf](./readme/demo/Tutor%20test%20correction.gif) |
 
 <br><br>
 
@@ -93,25 +100,7 @@
 
 ### Mastering AI Interaction: Unveiling the Power of Prompt Engineering:
 
-- This project uses advanced prompt engineering techniques to optimize the interaction with natural language processing models. By skillfully crafting input instructions, we tailor the behavior of the models to achieve precise and efficient language understanding and generation for various tasks and preferences.
-
-<br><br>
-
-<!-- AWS Deployment -->
-<img src="./readme/title8.svg"/>
-
-### Efficient AI Deployment: Unleashing the Potential with AWS Integration:
-
-- This project leverages AWS deployment strategies to seamlessly integrate and deploy natural language processing models. With a focus on scalability, reliability, and performance, we ensure that AI applications powered by these models deliver robust and responsive solutions for diverse use cases.
-
-<br><br>
-
-<!-- Unit Testing -->
-<img src="./readme/title9.svg"/>
-
-### Precision in Development: Harnessing the Power of Unit Testing:
-
-- This project employs rigorous unit testing methodologies to ensure the reliability and accuracy of code components. By systematically evaluating individual units of the software, we guarantee a robust foundation, identifying and addressing potential issues early in the development process.
+- This project utilizes advanced prompt engineering methods to improve the interaction between learners and AI-powered language models. By designing learning scenarios and input instructions with precision, we adjust the models' behavior to provide personalized and efficient language practice that suits various learner levels and preferences. This strategy strengthens the app’s capacity to generate accurate, contextually appropriate responses, promoting a more engaging and effective language learning experience.
 
 <br><br>
 
@@ -124,25 +113,40 @@
 
 This is an example of how to list things you need to use the software and how to install them.
 
-- npm
+- bun (Windows)
   ```sh
-  npm install npm@latest -g
+  powershell -c "irm bun.sh/install.ps1|iex"
+  ```
+- bun (Mac / Linux)
+  ```sh
+  curl -fsSL https://bun.sh/install | bash
   ```
 
 ### Installation
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [example](https://example.com)
+1. Get a free Gemini API Key at [Google AI Studio](https://aistudio.google.com/prompts/new_chat)
 2. Clone the repo
-   git clone [github](https://github.com/your_username_/Project-Name.git)
-3. Install NPM packages
+   git clone [github](https://github.com/arefabouhamdan/Lingo-Quest.git)
+3. Install packages
    ```sh
-   npm install
+   bun install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
+4. Enter your API in `Lingo-Quest-Server/.env`
+   ```ts
+   const GEMINI_API_KEY = "ENTER YOUR API";
    ```
+5. Enter your IP Address in `Lingo-Quest-App/assets/utils/baseUrl`
+   ```ts
+   export const BASE_URL = "http://YOUR IP ADDRESS:3000";
+
+6. Start the App with
+   ```sh
+   bun start
+   ```
+7. Start the Server with 
+   ```sh
+   bun dev
 
 Now, you should be able to run Lingo Quest locally and explore its features.
