@@ -66,8 +66,8 @@
 | User Model                            | Test Model                         | Results Model                         |
 | ----------------------------------------- | --------------------------------------- | --------------------------------------- |
 | ![Landing](./readme/demo/user%20model.png) | ![fsdaf](./readme/demo/Test.png) | ![fsdaf](./readme/demo/Result.png) |
-| Level Model                            | 
-| ----------------------------------------- |
+| Level Model                                 | 
+| --------------------------------------------|
 | ![Landing](./readme/demo/level%20model.png) |
 
 <br><br>
@@ -86,12 +86,12 @@
 | ![Landing](./readme/demo/Choose%20Language.jpg) | ![fsdaf](./readme/demo/Home%20Screen.jpg) | ![fsdaf](./readme/demo/Vocab%20List.jpg) |
 | Levels screen                               | Level 1 Start                             | Level 1 End                            |
 | ![Landing](./readme/demo/Levels.gif) | ![fsdaf](./readme/demo/AI%20Start%20Chat.gif) | ![fsdaf](./readme/demo/AI%20End%20Chat.gif) |
-| Test screen                               | Top 50 Screen                             | Friend Modal                            |
-| ![Landing](./readme/demo/Test.gif) | ![fsdaf](./readme/demo/LeaderBoard.jpg) | ![fsdaf](./readme/demo/Leaderboard.gif) |
+| Hint Modal                               | Test Screen                             | Top 50 Screen                            |
+| ![Landing](./readme/demo/Hint.gif) | ![fsdaf](./readme/demo/Test.gif) | ![fsdaf](./readme/demo/Leaderboard.gif) |
 | Profile screen                               | Add Friends Screen                             | Friends Screen                            |
 | ![Landing](./readme/demo/Profile.jpg) | ![fsdaf](./readme/demo/Search%20Friend.gif) | ![fsdaf](./readme/demo/Friends.jpg) |
-| Tutor Home screen                               | Test Correction                             |
-| ![Landing](./readme/demo/TutorHome.jpg) | ![fsdaf](./readme/demo/Tutor%20test%20correction.gif) |
+| Friends Screen                            || Tutor Home screen                               | Test Correction                             |
+| ![fsdaf](./readme/demo/Friends.jpg) || ![Landing](./readme/demo/TutorHome.jpg) | ![fsdaf](./readme/demo/Tutor%20test%20correction.gif) |
 
 <br><br>
 
