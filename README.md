@@ -50,17 +50,10 @@
 
 ### Mockups
 
-| Home screen                             | Levels Screen                         | Profile Screen                        |
-| --------------------------------------- | ------------------------------------- | ------------------------------------- |
+| Home screen                            | Levels Screen                      | Profile Screen                      |
+| -------------------------------------- | ---------------------------------- | ----------------------------------- |
 | ![Landing](./readme/demo/HomePage.png) | ![fsdaf](./readme/demo/Levels.png) | ![fsdaf](./readme/demo/Profile.png) |
 
-### Admin Screens (Web)
-| Edit Users                           | Edit Prompts                        | 
-| -------------------------------------| ------------------------------------|
-| ![Landing](./readme/demo/Users.png)  | ![fsdaf](./readme/demo/Prompts.png) | 
-| Edit Tests                        |
-| ----------------------------------|
-|![fsdaf](./readme/demo/Tests.png)  |
 <br><br>
 
 <!-- Database Design -->
@@ -68,12 +61,12 @@
 
 ### Architecting Data Excellence: Innovative Database Design Strategies:
 
-| User Model                            | Test Model                         | Results Model                         |
-| ----------------------------------------- | --------------------------------------- | --------------------------------------- |
-| ![Landing](./readme/demo/user%20model.png) | ![fsdaf](./readme/demo/Test.png) | ![fsdaf](./readme/demo/Result.png) |
-| Level Model                                 | 
-| --------------------------------------------|
-| ![Landing](./readme/demo/level%20model.png) |
+| User Model 1/3                                 | User Model 2/3                               | User Model 3/3                               |
+| ---------------------------------------------- | -------------------------------------------- | -------------------------------------------- |
+| ![Landing](./readme/demo/user%20model%201.png) | ![fsdaf](./readme/demo/user%20model%202.png) | ![fsdaf](./readme/demo/user%20model%203.png) |
+| Test Model                                     | Results Model                                | Level Model                                  |
+| -----------------------------------------      | ---------------------------------------      | ---------------------------------------      |
+| ![fsdaf](./readme/demo/Test.png)               | ![fsdaf](./readme/demo/Result.png)           | ![Landing](./readme/demo/level%20model.png)  |
 
 <br><br>
 
@@ -82,21 +75,21 @@
 
 ### User Screens (Mobile)
 
-| Landing screen                            | Login screen                          | Choose Role screen                          |
-| ----------------------------------------- | --------------------------------------- | --------------------------------------- |
-| ![Landing](./readme/demo/Welcome%20Screen.jpg) | ![fsdaf](./readme/demo/Login.jpg) | ![fsdaf](./readme/demo/Choose%20Role.jpg) |
-| Student Register screen                   | Tutor Register Screen                             | Create Avatar Screen                            |
+| Landing screen                                    | Login screen                                  | Choose Role screen                          |
+| ------------------------------------------------- | --------------------------------------------- | ------------------------------------------- | ----------------------------------------------------- |
+| ![Landing](./readme/demo/Welcome%20Screen.jpg)    | ![fsdaf](./readme/demo/Login.jpg)             | ![fsdaf](./readme/demo/Choose%20Role.jpg)   |
+| Student Register screen                           | Tutor Register Screen                         | Create Avatar Screen                        |
 | ![Landing](./readme/demo/Student%20Sign%20Up.jpg) | ![fsdaf](./readme/demo/Tutor%20SIgn%20Up.jpg) | ![fsdaf](./readme/demo/Create%20Avatar.jpg) |
-| Choose Language screen                               | Student Home Screen                             | Vocab List Screen                            |
-| ![Landing](./readme/demo/Choose%20Language.jpg) | ![fsdaf](./readme/demo/Home%20Screen.jpg) | ![fsdaf](./readme/demo/Vocab%20List.jpg) |
-| Levels screen                               | Level 1 Start                             | Level 1 End                            |
-| ![Landing](./readme/demo/Levels.gif) | ![fsdaf](./readme/demo/AI%20Start%20Chat.gif) | ![fsdaf](./readme/demo/AI%20End%20Chat.gif) |
-| Hint Modal                               | Test Screen                             | Top 50 Screen                            |
-| ![Landing](./readme/demo/Hint.gif) | ![fsdaf](./readme/demo/Test.gif) | ![fsdaf](./readme/demo/Leaderboard.gif) |
-| Profile screen                               | Add Friends Screen                             | Friends Screen                            |
-| ![Landing](./readme/demo/Profile.jpg) | ![fsdaf](./readme/demo/Search%20Friend.gif) | ![fsdaf](./readme/demo/Friends.jpg) |
-| Friends Screen                            || Tutor Home screen                               | Test Correction                             |
-| ![fsdaf](./readme/demo/Friends.jpg) || ![Landing](./readme/demo/TutorHome.jpg) | ![fsdaf](./readme/demo/Tutor%20test%20correction.gif) |
+| Choose Language screen                            | Student Home Screen                           | Vocab List Screen                           |
+| ![Landing](./readme/demo/Choose%20Language.jpg)   | ![fsdaf](./readme/demo/Home%20Screen.jpg)     | ![fsdaf](./readme/demo/Vocab%20List.jpg)    |
+| Levels screen                                     | Level 1 Start                                 | Level 1 End                                 |
+| ![Landing](./readme/demo/Levels.gif)              | ![fsdaf](./readme/demo/AI%20Start%20Chat.gif) | ![fsdaf](./readme/demo/AI%20End%20Chat.gif) |
+| Hint Modal                                        | Test Screen                                   | Top 50 Screen                               |
+| ![Landing](./readme/demo/Hint.gif)                | ![fsdaf](./readme/demo/Test.gif)              | ![fsdaf](./readme/demo/Leaderboard.gif)     |
+| Profile screen                                    | Add Friends Screen                            | Friends Screen                              |
+| ![Landing](./readme/demo/Profile.jpg)             | ![fsdaf](./readme/demo/Search%20Friend.gif)   | ![fsdaf](./readme/demo/Friends.jpg)         |
+| Friends Screen                                    |                                               | Tutor Home screen                           | Test Correction                                       |
+| ![fsdaf](./readme/demo/Friends.jpg)               |                                               | ![Landing](./readme/demo/TutorHome.jpg)     | ![fsdaf](./readme/demo/Tutor%20test%20correction.gif) |
 
 <br><br>
 
@@ -143,15 +136,18 @@ _Below is an example of how you can instruct your audience on installing and set
    const GEMINI_API_KEY = "ENTER YOUR API";
    ```
 5. Enter your IP Address in `Lingo-Quest-App/assets/utils/baseUrl`
+
    ```ts
    export const BASE_URL = "http://YOUR IP ADDRESS:3000";
+   ```
 
 6. Start the App with
    ```sh
    bun start
    ```
-7. Start the Server with 
+7. Start the Server with
    ```sh
    bun dev
+   ```
 
 Now, you should be able to run Lingo Quest locally and explore its features.
