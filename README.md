@@ -50,9 +50,14 @@
 
 ### Mockups
 
-| Home screen                             | Levels Screen                           | Profile Screen                          |
+| Home screen                             | Levels Screen                         | Profile Screen                        |
 | --------------------------------------- | ------------------------------------- | ------------------------------------- |
 | ![Landing](./readme/demo/HomePage.png) | ![fsdaf](./readme/demo/Levels.png) | ![fsdaf](./readme/demo/Profile.png) |
+
+### Admin Screens (Web)
+| Edit Users                           | Edit Prompts                        | Edit Tests                       |
+| -------------------------------------| ------------------------------------| ----------------------------------|
+| ![Landing](./readme/demo/Users.pngg) | ![fsdaf](./readme/demo/Prompts.png) | ![fsdaf](./readme/demo/Tests.png) |
 
 <br><br>
 
