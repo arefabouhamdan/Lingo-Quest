@@ -70,13 +70,6 @@
 | -------------------------------- | ---------------------------------- | ------------------------------------------- |
 | ![fsdaf](./readme/demo/Test.png) | ![fsdaf](./readme/demo/Result.png) | ![Landing](./readme/demo/level%20model.png) |
 
-| User Model 1/3                                 | User Model 2/3                               | User Model 3/3                               |
-| ---------------------------------------------- | -------------------------------------------- | -------------------------------------------- |
-| ![Landing](./readme/demo/user%20model%201.png) | ![fsdaf](./readme/demo/user%20model%202.png) | ![fsdaf](./readme/demo/user%20model%203.png) |
-| Test Model                                     | Results Model                                | Level Model                                  |
-| -----------------------------------------      | ---------------------------------------      | ---------------------------------------      |
-| ![fsdaf](./readme/demo/Test.png)               | ![fsdaf](./readme/demo/Result.png)           | ![Landing](./readme/demo/level%20model.png)  |
-
 <br><br>
 
 <!-- Implementation -->
@@ -108,9 +101,9 @@
 | ------------------------------------- | ------------------------------------------- | ----------------------------------- |
 | ![Landing](./readme/demo/Profile.jpg) | ![fsdaf](./readme/demo/Search%20Friend.gif) | ![fsdaf](./readme/demo/Friends.jpg) |
 
-| Friends Screen                      | Tutor Home screen                       | Test Correction                                       |
-| ----------------------------------- | --------------------------------------- | ----------------------------------------------------- |
-| ![fsdaf](./readme/demo/Friends.jpg) | ![Landing](./readme/demo/TutorHome.jpg) | ![fsdaf](./readme/demo/Tutor%20test%20correction.gif) |
+| Tutor Home screen                       | Test Correction                                       |
+| --------------------------------------- | ----------------------------------------------------- |
+| ![Landing](./readme/demo/TutorHome.jpg) | ![fsdaf](./readme/demo/Tutor%20test%20correction.gif) |
 
 
 <br><br>
