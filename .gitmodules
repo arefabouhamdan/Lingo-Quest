@@ -1,0 +1,9 @@
+[submodule "Lingo-Quest-App"]
+	path = Lingo-Quest-App
+	url = https://github.com/arefabouhamdan/Lingo-Quest-App.git
+[submodule "Lingo-Quest-Server"]
+	path = Lingo-Quest-Server
+	url = https://github.com/arefabouhamdan/Lingo-Quest-Server.git
+[submodule "Lingo-Quest-Admin"]
+	path = Lingo-Quest-Admin
+	url = https://github.com/arefabouhamdan/Lingo-Quest-Admin.git
