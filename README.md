@@ -60,7 +60,7 @@
 <img src="./readme/title5.svg"/>
 
 ### Architecting Data Excellence: Innovative Database Design Strategies:
-<<<<<<< HEAD
+
 
 | User Model 1/3                                 | User Model 2/3                               | User Model 3/3                               |
 | ---------------------------------------------- | -------------------------------------------- | -------------------------------------------- |
@@ -69,7 +69,6 @@
 | Test Model                       | Results Model                      | Level Model                                 |
 | -------------------------------- | ---------------------------------- | ------------------------------------------- |
 | ![fsdaf](./readme/demo/Test.png) | ![fsdaf](./readme/demo/Result.png) | ![Landing](./readme/demo/level%20model.png) |
-=======
 
 | User Model 1/3                                 | User Model 2/3                               | User Model 3/3                               |
 | ---------------------------------------------- | -------------------------------------------- | -------------------------------------------- |
@@ -77,7 +76,6 @@
 | Test Model                                     | Results Model                                | Level Model                                  |
 | -----------------------------------------      | ---------------------------------------      | ---------------------------------------      |
 | ![fsdaf](./readme/demo/Test.png)               | ![fsdaf](./readme/demo/Result.png)           | ![Landing](./readme/demo/level%20model.png)  |
->>>>>>> 0e53458a617b737c76c0abd2b06900225d99424b
 
 <br><br>
 
@@ -86,7 +84,6 @@
 
 ### User Screens (Mobile)
 
-<<<<<<< HEAD
 | Landing screen                                 | Login screen                      | Choose Role screen                        |
 | ---------------------------------------------- | --------------------------------- | ----------------------------------------- |
 | ![Landing](./readme/demo/Welcome%20Screen.jpg) | ![fsdaf](./readme/demo/Login.jpg) | ![fsdaf](./readme/demo/Choose%20Role.jpg) |
@@ -114,23 +111,7 @@
 | Friends Screen                      | Tutor Home screen                       | Test Correction                                       |
 | ----------------------------------- | --------------------------------------- | ----------------------------------------------------- |
 | ![fsdaf](./readme/demo/Friends.jpg) | ![Landing](./readme/demo/TutorHome.jpg) | ![fsdaf](./readme/demo/Tutor%20test%20correction.gif) |
-=======
-| Landing screen                                    | Login screen                                  | Choose Role screen                          |
-| ------------------------------------------------- | --------------------------------------------- | ------------------------------------------- | ----------------------------------------------------- |
-| ![Landing](./readme/demo/Welcome%20Screen.jpg)    | ![fsdaf](./readme/demo/Login.jpg)             | ![fsdaf](./readme/demo/Choose%20Role.jpg)   |
-| Student Register screen                           | Tutor Register Screen                         | Create Avatar Screen                        |
-| ![Landing](./readme/demo/Student%20Sign%20Up.jpg) | ![fsdaf](./readme/demo/Tutor%20SIgn%20Up.jpg) | ![fsdaf](./readme/demo/Create%20Avatar.jpg) |
-| Choose Language screen                            | Student Home Screen                           | Vocab List Screen                           |
-| ![Landing](./readme/demo/Choose%20Language.jpg)   | ![fsdaf](./readme/demo/Home%20Screen.jpg)     | ![fsdaf](./readme/demo/Vocab%20List.jpg)    |
-| Levels screen                                     | Level 1 Start                                 | Level 1 End                                 |
-| ![Landing](./readme/demo/Levels.gif)              | ![fsdaf](./readme/demo/AI%20Start%20Chat.gif) | ![fsdaf](./readme/demo/AI%20End%20Chat.gif) |
-| Hint Modal                                        | Test Screen                                   | Top 50 Screen                               |
-| ![Landing](./readme/demo/Hint.gif)                | ![fsdaf](./readme/demo/Test.gif)              | ![fsdaf](./readme/demo/Leaderboard.gif)     |
-| Profile screen                                    | Add Friends Screen                            | Friends Screen                              |
-| ![Landing](./readme/demo/Profile.jpg)             | ![fsdaf](./readme/demo/Search%20Friend.gif)   | ![fsdaf](./readme/demo/Friends.jpg)         |
-| Friends Screen                                    |                                               | Tutor Home screen                           | Test Correction                                       |
-| ![fsdaf](./readme/demo/Friends.jpg)               |                                               | ![Landing](./readme/demo/TutorHome.jpg)     | ![fsdaf](./readme/demo/Tutor%20test%20correction.gif) |
->>>>>>> 0e53458a617b737c76c0abd2b06900225d99424b
+
 
 <br><br>
 
