@@ -145,30 +145,47 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_Below is an example of how you can run Lingo Quest locally._
 
 1. Get a free Gemini API Key at [Google AI Studio](https://aistudio.google.com/prompts/new_chat)
+
 2. Clone the repo
    git clone [github](https://github.com/arefabouhamdan/Lingo-Quest.git)
-3. Install packages
+
+3. To set up the front end
    ```sh
+   cd Lingo-Quest-App
    bun install
    ```
-4. Enter your API in `Lingo-Quest-Server/.env`
-   ```ts
-   const GEMINI_API_KEY = "ENTER YOUR API";
-   ```
-5. Enter your IP Address in `Lingo-Quest-App/assets/utils/baseUrl`
+
+4. Enter your IP Address in `assets/utils/baseUrl`
 
    ```ts
    export const BASE_URL = "http://YOUR IP ADDRESS:3000";
    ```
 
-6. Start the App with
+5. Run the App with
    ```sh
    bun start
    ```
-7. Start the Server with
+
+7. To set up the backend end(in a new terminal)
+   ```sh
+   cd Lingo-Quest-Server
+   bun install
+   ```
+
+8. Enter your API in `Lingo-Quest-Server/.env`
+   ```ts
+   const GEMINI_API_KEY = "ENTER YOUR API KEY";
+   ```
+
+9. Enter your MongoDB URL
+   ```ts
+   const MONGODB_URL = "ENTER YOUR URL";
+   ```
+
+10. Run the Server with
    ```sh
    bun dev
    ```
