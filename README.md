@@ -61,12 +61,14 @@
 
 ### Architecting Data Excellence: Innovative Database Design Strategies:
 
+
 | User Model 1/3                                 | User Model 2/3                               | User Model 3/3                               |
 | ---------------------------------------------- | -------------------------------------------- | -------------------------------------------- |
 | ![Landing](./readme/demo/user%20model%201.png) | ![fsdaf](./readme/demo/user%20model%202.png) | ![fsdaf](./readme/demo/user%20model%203.png) |
-| Test Model                                     | Results Model                                | Level Model                                  |
-| -----------------------------------------      | ---------------------------------------      | ---------------------------------------      |
-| ![fsdaf](./readme/demo/Test.png)               | ![fsdaf](./readme/demo/Result.png)           | ![Landing](./readme/demo/level%20model.png)  |
+
+| Test Model                       | Results Model                      | Level Model                                 |
+| -------------------------------- | ---------------------------------- | ------------------------------------------- |
+| ![fsdaf](./readme/demo/Test.png) | ![fsdaf](./readme/demo/Result.png) | ![Landing](./readme/demo/level%20model.png) |
 
 <br><br>
 
@@ -75,21 +77,34 @@
 
 ### User Screens (Mobile)
 
-| Landing screen                                    | Login screen                                  | Choose Role screen                          |
-| ------------------------------------------------- | --------------------------------------------- | ------------------------------------------- | ----------------------------------------------------- |
-| ![Landing](./readme/demo/Welcome%20Screen.jpg)    | ![fsdaf](./readme/demo/Login.jpg)             | ![fsdaf](./readme/demo/Choose%20Role.jpg)   |
+| Landing screen                                 | Login screen                      | Choose Role screen                        |
+| ---------------------------------------------- | --------------------------------- | ----------------------------------------- |
+| ![Landing](./readme/demo/Welcome%20Screen.jpg) | ![fsdaf](./readme/demo/Login.jpg) | ![fsdaf](./readme/demo/Choose%20Role.jpg) |
+
 | Student Register screen                           | Tutor Register Screen                         | Create Avatar Screen                        |
+| ------------------------------------------------- | --------------------------------------------- | ------------------------------------------- |
 | ![Landing](./readme/demo/Student%20Sign%20Up.jpg) | ![fsdaf](./readme/demo/Tutor%20SIgn%20Up.jpg) | ![fsdaf](./readme/demo/Create%20Avatar.jpg) |
-| Choose Language screen                            | Student Home Screen                           | Vocab List Screen                           |
-| ![Landing](./readme/demo/Choose%20Language.jpg)   | ![fsdaf](./readme/demo/Home%20Screen.jpg)     | ![fsdaf](./readme/demo/Vocab%20List.jpg)    |
-| Levels screen                                     | Level 1 Start                                 | Level 1 End                                 |
-| ![Landing](./readme/demo/Levels.gif)              | ![fsdaf](./readme/demo/AI%20Start%20Chat.gif) | ![fsdaf](./readme/demo/AI%20End%20Chat.gif) |
-| Hint Modal                                        | Test Screen                                   | Top 50 Screen                               |
-| ![Landing](./readme/demo/Hint.gif)                | ![fsdaf](./readme/demo/Test.gif)              | ![fsdaf](./readme/demo/Leaderboard.gif)     |
-| Profile screen                                    | Add Friends Screen                            | Friends Screen                              |
-| ![Landing](./readme/demo/Profile.jpg)             | ![fsdaf](./readme/demo/Search%20Friend.gif)   | ![fsdaf](./readme/demo/Friends.jpg)         |
-| Friends Screen                                    |                                               | Tutor Home screen                           | Test Correction                                       |
-| ![fsdaf](./readme/demo/Friends.jpg)               |                                               | ![Landing](./readme/demo/TutorHome.jpg)     | ![fsdaf](./readme/demo/Tutor%20test%20correction.gif) |
+
+| Choose Language screen                          | Student Home Screen                       | Vocab List Screen                        |
+| ----------------------------------------------- | ----------------------------------------- | ---------------------------------------- |
+| ![Landing](./readme/demo/Choose%20Language.jpg) | ![fsdaf](./readme/demo/Home%20Screen.jpg) | ![fsdaf](./readme/demo/Vocab%20List.jpg) |
+
+| Levels screen                        | Level 1 Start                                 | Level 1 End                                 |
+| ------------------------------------ | --------------------------------------------- | ------------------------------------------- |
+| ![Landing](./readme/demo/Levels.gif) | ![fsdaf](./readme/demo/AI%20Start%20Chat.gif) | ![fsdaf](./readme/demo/AI%20End%20Chat.gif) |
+
+| Hint Modal                         | Test Screen                      | Top 50 Screen                           |
+| ---------------------------------- | -------------------------------- | --------------------------------------- |
+| ![Landing](./readme/demo/Hint.gif) | ![fsdaf](./readme/demo/Test.gif) | ![fsdaf](./readme/demo/Leaderboard.gif) |
+
+| Profile screen                        | Add Friends Screen                          | Friends Screen                      |
+| ------------------------------------- | ------------------------------------------- | ----------------------------------- |
+| ![Landing](./readme/demo/Profile.jpg) | ![fsdaf](./readme/demo/Search%20Friend.gif) | ![fsdaf](./readme/demo/Friends.jpg) |
+
+| Tutor Home screen                       | Test Correction                                       |
+| --------------------------------------- | ----------------------------------------------------- |
+| ![Landing](./readme/demo/TutorHome.jpg) | ![fsdaf](./readme/demo/Tutor%20test%20correction.gif) |
+
 
 <br><br>
 
@@ -98,7 +113,11 @@
 
 ### Mastering AI Interaction: Unveiling the Power of Prompt Engineering:
 
-- This project utilizes advanced prompt engineering methods to improve the interaction between learners and AI-powered language models. By designing learning scenarios and input instructions with precision, we adjust the models' behavior to provide personalized and efficient language practice that suits various learner levels and preferences. This strategy strengthens the app’s capacity to generate accurate, contextually appropriate responses, promoting a more engaging and effective language learning experience.
+- This project utilizes advanced prompt engineering methods to improve the interaction between learners and AI-powered language models. This project is powered by Gemini 2.0 Experimental which provides that dialogue with the user.
+
+- The AI is given the user's input and chat history so that the conversation will be related to the user's previous answer. The prompt given is designed to simulate the scenario of the level and the student's level, to make sure that the conversation does not stop until the number of stages in this level is reached, to ensure that the user doesn't commit any grammar mistakes or chat about something unrelated to the scenario, to send a status (success = next stage, fail = lose 1 heart) and last but not least to give hint's and translation of the ai's response.
+
+<img src="./readme/demo/Ai Prompt.png"/>
 
 <br><br>
 
