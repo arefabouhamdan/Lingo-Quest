@@ -121,6 +121,23 @@
 
 <br><br>
 
+<!-- AWS Deployment -->
+<img src="./readme/title8.svg"/>
+
+###  Efficient AI Deployment: Unleashing the Potential with AWS Integration:
+
+- This project leverages AWS deployment strategies to seamlessly integrate and deploy natural language processing models. With a focus on scalability, reliability, and performance, we ensure that AI applications powered by these models deliver robust and responsive solutions for diverse use cases.
+
+| Login API                          | Fetch Prompt API                            |
+| ---------------------------------- | ------------------------------------------- |
+| ![Landing](./readme/demo/Login.png)| ![Landing](./readme/demo/fetch%20level.png) |
+
+| Submit Test API                           | Fetch Student Results API                   |
+| ----------------------------------------- | ------------------------------------------- |
+| ![fsdaf](./readme/demo/Submit%20Test.png) | ![fsdaf](./readme/demo/Fetch%20Results.png) |
+
+<br><br>
+
 <!-- How to run -->
 <img src="./readme/title10.svg"/>
 
