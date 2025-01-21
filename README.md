@@ -5,7 +5,7 @@
 <!-- project philosophy -->
 <img src="./readme/title2.svg"/>
 
-> The goal of **LingoQuest** is to keep the process of learning a new language fun, easy, and effective. We believe that the method of learning should feel like an adventure itself: users explore, they interact, they develop their abilities in a natural fashion.
+> The goal of **LingoQuest** is to keep the process of learning a new language fun and easy. We believe that the method of learning should feel like an adventure itself: users explore, they interact, they develop their abilities in a natural fashion.
 > In short, LingoQuest is designed to inspire users to enjoy language learning by giving them both the tools and realistic practice they need to succeed.
 
 ## User Stories
@@ -89,14 +89,9 @@
 | ---------------------------------- | -------------------------------- | --------------------------------------- |
 | ![Landing](./readme/demo/Hint.gif) | ![fsdaf](./readme/demo/Test.gif) | ![fsdaf](./readme/demo/Leaderboard.gif) |
 
-| Profile screen                        | Add Friends Screen                          | Tutor Home screen                       |
-| ------------------------------------- | ------------------------------------------- | --------------------------------------- |
-| ![Landing](./readme/demo/Profile.jpg) | ![fsdaf](./readme/demo/Search%20Friend.gif) | ![Landing](./readme/demo/TutorHome.jpg) |
-
-|                                         | Test Correction                                       |                                         |
-| --------------------------------------- | ----------------------------------------------------- | --------------------------------------- |
-|                                         | ![fsdaf](./readme/demo/Tutor%20test%20correction.gif) |                                         |
-
+| Profile screen                        | Test Correction                                       | Tutor Home screen                       |
+| ------------------------------------- | ----------------------------------------------------- | --------------------------------------- |
+| ![Landing](./readme/demo/Profile.jpg) | ![fsdaf](./readme/demo/Tutor%20test%20correction.gif) | ![Landing](./readme/demo/TutorHome.jpg) |
 
 <br><br>
 
@@ -105,9 +100,9 @@
 
 ### Mastering AI Interaction: Unveiling the Power of Prompt Engineering:
 
-- This project utilizes advanced prompt engineering methods to improve the interaction between learners and AI-powered language models. This project is powered by Gemini 2.0 Experimental which provides that dialogue with the user.
+- This project utilizes advanced prompt engineering methods to enhance the interaction between learners and AI-powered language models. It is powered by Gemini 2.0 Experimental, which provides the dialogue with the user in JSON format.
 
-- The AI is given the user's input and chat history so that the conversation will be related to the user's previous answer. The prompt given is designed to simulate the scenario of the level and the student's level, to make sure that the conversation does not stop until the number of stages in this level is reached, to ensure that the user doesn't commit any grammar mistakes or chat about something unrelated to the scenario, to send a status (success = next stage, fail = lose 1 heart) and last but not least to give hint's and translation of the ai's response.
+- The AI is provided with the user's input, prompt and chat history so that the conversation remains relevant to the user's previous responses. The prompt is designed to simulate the scenario and match the student's level, it is given number of stages to ensure that the conversation continues until all stages of the level are completed. It ensures that the user avoids grammar mistakes, stays on topic, sends status updates (success = next stage, fail = lose 1 heart), and, lastly, provides hints and translations for the AI's responses.
 
 <img src="./readme/demo/Ai Prompt.png"/>
 
