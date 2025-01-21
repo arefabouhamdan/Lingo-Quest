@@ -5,7 +5,7 @@
 <!-- project philosophy -->
 <img src="./readme/title2.svg"/>
 
-> The goal of **LingoQuest** is to keep the process of learning a new language fun, easy, and effective. We believe that the method of learning should feel like an adventure itself: users explore, they interact, they develop their abilities in a natural fashion.
+> The goal of **LingoQuest** is to keep the process of learning a new language fun and easy. We believe that the method of learning should feel like an adventure itself: users explore, they interact, they develop their abilities in a natural fashion.
 > In short, LingoQuest is designed to inspire users to enjoy language learning by giving them both the tools and realistic practice they need to succeed.
 
 ## User Stories
@@ -77,17 +77,9 @@
 
 ### User Screens (Mobile)
 
-| Landing screen                                 | Login screen                      | Choose Role screen                        |
-| ---------------------------------------------- | --------------------------------- | ----------------------------------------- |
-| ![Landing](./readme/demo/Welcome%20Screen.jpg) | ![fsdaf](./readme/demo/Login.jpg) | ![fsdaf](./readme/demo/Choose%20Role.jpg) |
-
-| Student Register screen                           | Tutor Register Screen                         | Create Avatar Screen                        |
-| ------------------------------------------------- | --------------------------------------------- | ------------------------------------------- |
-| ![Landing](./readme/demo/Student%20Sign%20Up.jpg) | ![fsdaf](./readme/demo/Tutor%20SIgn%20Up.jpg) | ![fsdaf](./readme/demo/Create%20Avatar.jpg) |
-
-| Choose Language screen                          | Student Home Screen                       | Vocab List Screen                        |
-| ----------------------------------------------- | ----------------------------------------- | ---------------------------------------- |
-| ![Landing](./readme/demo/Choose%20Language.jpg) | ![fsdaf](./readme/demo/Home%20Screen.jpg) | ![fsdaf](./readme/demo/Vocab%20List.jpg) |
+| Create Avatar Screen                        | Student Home Screen                       | Vocab List Screen                        |
+| ------------------------------------------- | ----------------------------------------- | ---------------------------------------- |
+| ![fsdaf](./readme/demo/Create%20avatar.gif) | ![fsdaf](./readme/demo/Home%20Screen.jpg) | ![fsdaf](./readme/demo/Vocab%20List.jpg) |
 
 | Levels screen                        | Level 1 Start                                 | Level 1 End                                 |
 | ------------------------------------ | --------------------------------------------- | ------------------------------------------- |
@@ -97,14 +89,9 @@
 | ---------------------------------- | -------------------------------- | --------------------------------------- |
 | ![Landing](./readme/demo/Hint.gif) | ![fsdaf](./readme/demo/Test.gif) | ![fsdaf](./readme/demo/Leaderboard.gif) |
 
-| Profile screen                        | Add Friends Screen                          | Friends Screen                      |
-| ------------------------------------- | ------------------------------------------- | ----------------------------------- |
-| ![Landing](./readme/demo/Profile.jpg) | ![fsdaf](./readme/demo/Search%20Friend.gif) | ![fsdaf](./readme/demo/Friends.jpg) |
-
-| Tutor Home screen                       | Test Correction                                       |
-| --------------------------------------- | ----------------------------------------------------- |
-| ![Landing](./readme/demo/TutorHome.jpg) | ![fsdaf](./readme/demo/Tutor%20test%20correction.gif) |
-
+| Profile screen                        | Test Correction                                       | Tutor Home screen                       |
+| ------------------------------------- | ----------------------------------------------------- | --------------------------------------- |
+| ![Landing](./readme/demo/Profile.jpg) | ![fsdaf](./readme/demo/Tutor%20test%20correction.gif) | ![Landing](./readme/demo/TutorHome.jpg) |
 
 <br><br>
 
@@ -113,7 +100,28 @@
 
 ### Mastering AI Interaction: Unveiling the Power of Prompt Engineering:
 
-- This project utilizes advanced prompt engineering methods to improve the interaction between learners and AI-powered language models. By designing learning scenarios and input instructions with precision, we adjust the models' behavior to provide personalized and efficient language practice that suits various learner levels and preferences. This strategy strengthens the app’s capacity to generate accurate, contextually appropriate responses, promoting a more engaging and effective language learning experience.
+- This project utilizes advanced prompt engineering methods to enhance the interaction between learners and AI-powered language models. It is powered by Gemini 2.0 Experimental, which provides the dialogue with the user in JSON format.
+
+- The AI is provided with the user's input, prompt and chat history so that the conversation remains relevant to the user's previous responses. The prompt is designed to simulate the scenario and match the student's level, it is given number of stages to ensure that the conversation continues until all stages of the level are completed. It ensures that the user avoids grammar mistakes, stays on topic, sends status updates (success = next stage, fail = lose 1 heart), and, lastly, provides hints and translations for the AI's responses.
+
+<img src="./readme/demo/Ai Prompt.png"/>
+
+<br><br>
+
+<!-- AWS Deployment -->
+<img src="./readme/title8.svg"/>
+
+###  Efficient AI Deployment: Unleashing the Potential with AWS Integration:
+
+- This project leverages AWS deployment strategies to seamlessly integrate and deploy natural language processing models. With a focus on scalability, reliability, and performance, we ensure that AI applications powered by these models deliver robust and responsive solutions for diverse use cases.
+
+| Login API                          | Fetch Prompt API                            |
+| ---------------------------------- | ------------------------------------------- |
+| ![Landing](./readme/demo/Login.png)| ![Landing](./readme/demo/fetch%20level.png) |
+
+| Submit Test API                           | Fetch Student Results API                   |
+| ----------------------------------------- | ------------------------------------------- |
+| ![fsdaf](./readme/demo/Submit%20Test.png) | ![fsdaf](./readme/demo/Fetch%20Results.png) |
 
 <br><br>
 
@@ -137,30 +145,47 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_Below is an example of how you can run Lingo Quest locally._
 
 1. Get a free Gemini API Key at [Google AI Studio](https://aistudio.google.com/prompts/new_chat)
+
 2. Clone the repo
    git clone [github](https://github.com/arefabouhamdan/Lingo-Quest.git)
-3. Install packages
+
+3. To set up the front end
    ```sh
+   cd Lingo-Quest-App
    bun install
    ```
-4. Enter your API in `Lingo-Quest-Server/.env`
-   ```ts
-   const GEMINI_API_KEY = "ENTER YOUR API";
-   ```
-5. Enter your IP Address in `Lingo-Quest-App/assets/utils/baseUrl`
+
+4. Enter your IP Address in `assets/utils/baseUrl`
 
    ```ts
    export const BASE_URL = "http://YOUR IP ADDRESS:3000";
    ```
 
-6. Start the App with
+5. Run the App with
    ```sh
    bun start
    ```
-7. Start the Server with
+
+7. To set up the backend end(in a new terminal)
+   ```sh
+   cd Lingo-Quest-Server
+   bun install
+   ```
+
+8. Enter your API in `Lingo-Quest-Server/.env`
+   ```ts
+   const GEMINI_API_KEY = "ENTER YOUR API KEY";
+   ```
+
+9. Enter your MongoDB URL
+   ```ts
+   const MONGODB_URL = "ENTER YOUR URL";
+   ```
+
+10. Run the Server with
    ```sh
    bun dev
    ```
