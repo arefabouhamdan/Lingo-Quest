@@ -77,17 +77,9 @@
 
 ### User Screens (Mobile)
 
-| Landing screen                                 | Login screen                      | Choose Role screen                        |
-| ---------------------------------------------- | --------------------------------- | ----------------------------------------- |
-| ![Landing](./readme/demo/Welcome%20Screen.jpg) | ![fsdaf](./readme/demo/Login.jpg) | ![fsdaf](./readme/demo/Choose%20Role.jpg) |
-
-| Student Register screen                           | Tutor Register Screen                         | Create Avatar Screen                        |
-| ------------------------------------------------- | --------------------------------------------- | ------------------------------------------- |
-| ![Landing](./readme/demo/Student%20Sign%20Up.jpg) | ![fsdaf](./readme/demo/Tutor%20SIgn%20Up.jpg) | ![fsdaf](./readme/demo/Create%20Avatar.jpg) |
-
-| Choose Language screen                          | Student Home Screen                       | Vocab List Screen                        |
-| ----------------------------------------------- | ----------------------------------------- | ---------------------------------------- |
-| ![Landing](./readme/demo/Choose%20Language.jpg) | ![fsdaf](./readme/demo/Home%20Screen.jpg) | ![fsdaf](./readme/demo/Vocab%20List.jpg) |
+| Create Avatar Screen                        | Student Home Screen                       | Vocab List Screen                        |
+| ------------------------------------------- | ----------------------------------------- | ---------------------------------------- |
+| ![fsdaf](./readme/demo/Create%20avatar.gif) | ![fsdaf](./readme/demo/Home%20Screen.jpg) | ![fsdaf](./readme/demo/Vocab%20List.jpg) |
 
 | Levels screen                        | Level 1 Start                                 | Level 1 End                                 |
 | ------------------------------------ | --------------------------------------------- | ------------------------------------------- |
@@ -97,13 +89,13 @@
 | ---------------------------------- | -------------------------------- | --------------------------------------- |
 | ![Landing](./readme/demo/Hint.gif) | ![fsdaf](./readme/demo/Test.gif) | ![fsdaf](./readme/demo/Leaderboard.gif) |
 
-| Profile screen                        | Add Friends Screen                          | Friends Screen                      |
-| ------------------------------------- | ------------------------------------------- | ----------------------------------- |
-| ![Landing](./readme/demo/Profile.jpg) | ![fsdaf](./readme/demo/Search%20Friend.gif) | ![fsdaf](./readme/demo/Friends.jpg) |
+| Profile screen                        | Add Friends Screen                          | Tutor Home screen                       |
+| ------------------------------------- | ------------------------------------------- | --------------------------------------- |
+| ![Landing](./readme/demo/Profile.jpg) | ![fsdaf](./readme/demo/Search%20Friend.gif) | ![Landing](./readme/demo/TutorHome.jpg) |
 
-| Tutor Home screen                       | Test Correction                                       |
-| --------------------------------------- | ----------------------------------------------------- |
-| ![Landing](./readme/demo/TutorHome.jpg) | ![fsdaf](./readme/demo/Tutor%20test%20correction.gif) |
+|                                         | Test Correction                                       |                                         |
+| --------------------------------------- | ----------------------------------------------------- | --------------------------------------- |
+|                                         | ![fsdaf](./readme/demo/Tutor%20test%20correction.gif) |                                         |
 
 
 <br><br>
