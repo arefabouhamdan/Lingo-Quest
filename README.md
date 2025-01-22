@@ -6,6 +6,7 @@
 <img src="./readme/title2.svg"/>
 
 > The goal of **LingoQuest** is to keep the process of learning a new language fun and easy. We believe that the method of learning should feel like an adventure itself: users explore, they interact, they develop their abilities in a natural fashion.
+> The goal of **LingoQuest** is to keep the process of learning a new language fun and easy. We believe that the method of learning should feel like an adventure itself: users explore, they interact, they develop their abilities in a natural fashion.
 > In short, LingoQuest is designed to inspire users to enjoy language learning by giving them both the tools and realistic practice they need to succeed.
 
 ## User Stories
@@ -80,6 +81,9 @@
 | Create Avatar Screen                        | Student Home Screen                       | Vocab List Screen                        |
 | ------------------------------------------- | ----------------------------------------- | ---------------------------------------- |
 | ![fsdaf](./readme/demo/Create%20avatar.gif) | ![fsdaf](./readme/demo/Home%20Screen.jpg) | ![fsdaf](./readme/demo/Vocab%20List.jpg) |
+| Create Avatar Screen                        | Student Home Screen                       | Vocab List Screen                        |
+| ------------------------------------------- | ----------------------------------------- | ---------------------------------------- |
+| ![fsdaf](./readme/demo/Create%20avatar.gif) | ![fsdaf](./readme/demo/Home%20Screen.jpg) | ![fsdaf](./readme/demo/Vocab%20List.jpg) |
 
 | Levels screen                        | Level 1 Start                                 | Level 1 End                                 |
 | ------------------------------------ | --------------------------------------------- | ------------------------------------------- |
@@ -89,6 +93,9 @@
 | ---------------------------------- | -------------------------------- | --------------------------------------- |
 | ![Landing](./readme/demo/Hint.gif) | ![fsdaf](./readme/demo/Test.gif) | ![fsdaf](./readme/demo/Leaderboard.gif) |
 
+| Profile screen                        | Test Correction                                       | Tutor Home screen                       |
+| ------------------------------------- | ----------------------------------------------------- | --------------------------------------- |
+| ![Landing](./readme/demo/Profile.jpg) | ![fsdaf](./readme/demo/Tutor%20test%20correction.gif) | ![Landing](./readme/demo/TutorHome.jpg) |
 | Profile screen                        | Test Correction                                       | Tutor Home screen                       |
 | ------------------------------------- | ----------------------------------------------------- | --------------------------------------- |
 | ![Landing](./readme/demo/Profile.jpg) | ![fsdaf](./readme/demo/Tutor%20test%20correction.gif) | ![Landing](./readme/demo/TutorHome.jpg) |
@@ -146,17 +153,24 @@ This is an example of how to list things you need to use the software and how to
 ### Installation
 
 _Below is an example of how you can run Lingo Quest locally._
+_Below is an example of how you can run Lingo Quest locally._
 
 1. Get a free Gemini API Key at [Google AI Studio](https://aistudio.google.com/prompts/new_chat)
+
 
 2. Clone the repo
    git clone [github](https://github.com/arefabouhamdan/Lingo-Quest.git)
 
 3. To set up the front end
+
+3. To set up the front end
    ```sh
+   cd Lingo-Quest-App
    cd Lingo-Quest-App
    bun install
    ```
+
+4. Enter your IP Address in `assets/utils/baseUrl`
 
 4. Enter your IP Address in `assets/utils/baseUrl`
 
@@ -165,9 +179,28 @@ _Below is an example of how you can run Lingo Quest locally._
    ```
 
 5. Run the App with
+5. Run the App with
    ```sh
    bun start
    ```
+
+7. To set up the backend end(in a new terminal)
+   ```sh
+   cd Lingo-Quest-Server
+   bun install
+   ```
+
+8. Enter your API in `Lingo-Quest-Server/.env`
+   ```ts
+   const GEMINI_API_KEY = "ENTER YOUR API KEY";
+   ```
+
+9. Enter your MongoDB URL
+   ```ts
+   const MONGODB_URL = "ENTER YOUR URL";
+   ```
+
+10. Run the Server with
 
 7. To set up the backend end(in a new terminal)
    ```sh
