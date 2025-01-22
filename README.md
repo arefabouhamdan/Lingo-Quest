@@ -81,6 +81,7 @@
 | Create Avatar Screen                        | Student Home Screen                       | Vocab List Screen                        |
 | ------------------------------------------- | ----------------------------------------- | ---------------------------------------- |
 | ![fsdaf](./readme/demo/Create%20avatar.gif) | ![fsdaf](./readme/demo/Home%20Screen.jpg) | ![fsdaf](./readme/demo/Vocab%20List.jpg) |
+
 | Create Avatar Screen                        | Student Home Screen                       | Vocab List Screen                        |
 | ------------------------------------------- | ----------------------------------------- | ---------------------------------------- |
 | ![fsdaf](./readme/demo/Create%20avatar.gif) | ![fsdaf](./readme/demo/Home%20Screen.jpg) | ![fsdaf](./readme/demo/Vocab%20List.jpg) |
@@ -96,6 +97,7 @@
 | Profile screen                        | Test Correction                                       | Tutor Home screen                       |
 | ------------------------------------- | ----------------------------------------------------- | --------------------------------------- |
 | ![Landing](./readme/demo/Profile.jpg) | ![fsdaf](./readme/demo/Tutor%20test%20correction.gif) | ![Landing](./readme/demo/TutorHome.jpg) |
+
 | Profile screen                        | Test Correction                                       | Tutor Home screen                       |
 | ------------------------------------- | ----------------------------------------------------- | --------------------------------------- |
 | ![Landing](./readme/demo/Profile.jpg) | ![fsdaf](./readme/demo/Tutor%20test%20correction.gif) | ![Landing](./readme/demo/TutorHome.jpg) |
