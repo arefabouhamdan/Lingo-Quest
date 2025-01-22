@@ -88,7 +88,7 @@
 
 | Levels screen                        | Level 1 Start                                 | Level 1 End                                 |
 | ------------------------------------ | --------------------------------------------- | ------------------------------------------- |
-| ![Landing](./readme/demo/Levels.gif) | ![fsdaf](./readme/demo/AI%20Start%20Chat.gif) | ![fsdaf](./readme/demo/AI%20End%20Chat.gif) |
+| ![Landing](./readme/demo/Levels.gif) | ![fsdaf](./readme/demo/Ai%20start.gif)        | ![fsdaf](./readme/demo/AI%20End%20Chat.gif) |
 
 | Hint Modal                         | Test Screen                      | Top 50 Screen                           |
 | ---------------------------------- | -------------------------------- | --------------------------------------- |
