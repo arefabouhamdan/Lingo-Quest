@@ -82,10 +82,6 @@
 | ------------------------------------------- | ----------------------------------------- | ---------------------------------------- |
 | ![fsdaf](./readme/demo/Create%20avatar.gif) | ![fsdaf](./readme/demo/Home%20Screen.jpg) | ![fsdaf](./readme/demo/Vocab%20List.jpg) |
 
-| Create Avatar Screen                        | Student Home Screen                       | Vocab List Screen                        |
-| ------------------------------------------- | ----------------------------------------- | ---------------------------------------- |
-| ![fsdaf](./readme/demo/Create%20avatar.gif) | ![fsdaf](./readme/demo/Home%20Screen.jpg) | ![fsdaf](./readme/demo/Vocab%20List.jpg) |
-
 | Levels screen                        | Level 1 Start                                 | Level 1 End                                 |
 | ------------------------------------ | --------------------------------------------- | ------------------------------------------- |
 | ![Landing](./readme/demo/Levels.gif) | ![fsdaf](./readme/demo/Ai%20start.gif)        | ![fsdaf](./readme/demo/AI%20End%20Chat.gif) |
@@ -93,10 +89,6 @@
 | Hint Modal                         | Test Screen                      | Top 50 Screen                           |
 | ---------------------------------- | -------------------------------- | --------------------------------------- |
 | ![Landing](./readme/demo/Hint.gif) | ![fsdaf](./readme/demo/Test.gif) | ![fsdaf](./readme/demo/Leaderboard.gif) |
-
-| Profile screen                        | Test Correction                                       | Tutor Home screen                       |
-| ------------------------------------- | ----------------------------------------------------- | --------------------------------------- |
-| ![Landing](./readme/demo/Profile.jpg) | ![fsdaf](./readme/demo/Tutor%20test%20correction.gif) | ![Landing](./readme/demo/TutorHome.jpg) |
 
 | Profile screen                        | Test Correction                                       | Tutor Home screen                       |
 | ------------------------------------- | ----------------------------------------------------- | --------------------------------------- |
